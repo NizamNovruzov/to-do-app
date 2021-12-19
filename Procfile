@@ -1,1 +1,1 @@
-web:pip install -r requirements.txt && python manage.py runserver
+web: gunicorn to-do-app.wsgi
