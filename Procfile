@@ -1,1 +1,1 @@
-web: pip install -y django_heroku && python manage.py runserver
+web:pip install -r requirements.txt && python manage.py runserver
