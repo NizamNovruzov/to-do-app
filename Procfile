@@ -1,1 +1,1 @@
-web gunicorn fierce-falls-47673.wsgi:
+web: gunicorn fierce-falls-47673.wsgi
